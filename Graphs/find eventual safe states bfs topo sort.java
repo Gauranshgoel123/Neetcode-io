@@ -4,6 +4,7 @@ class Solution {
         int v=graph.length;
         for(int i=0;i<v;i++){
             adjrev.add(new ArrayList<>());
+            
         }
         int[] indeg=new int[v];
         for(int i=0;i<v;i++){
